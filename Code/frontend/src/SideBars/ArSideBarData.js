@@ -1,22 +1,24 @@
-import React from 'react'
-import { money, dashboard, expenses, logout } from '../utils/Icons'
+import React from "react";
+import { money, dashboard, expenses, logout } from "../utils/Icons";
 export const ArSideBarData = [
-
     {
         title: "Dashboard",
         icon: dashboard,
-        link: "/arhome"
+        link: "/arhome",
     },
     {
-       title: "Incomes",
-       icon: money,
-       link: "/income" 
+        title: "Incomes",
+        icon: money,
+        link: "/income",
     },
     {
         title: "Expenses",
         icon: expenses,
-        link: "/expense"
+        link: "/expense",
     },
-
+    {
+        title: "Analyse",
+        icon: expenses,
+        link: "/analyse",
+    },
 ];
-
